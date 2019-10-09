@@ -5,7 +5,6 @@ const SearchBar = ({ findResults }) => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    console.log(result);
     findResults(result);
     setResult("");
   };
